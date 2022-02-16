@@ -24,12 +24,13 @@ p {
 	line-height: 1.5;
 }
 
-button {
+a {
 	border: none;
 	font-size: 32px;
 	padding: 20px 30px;
 	cursor: pointer;
 	border-radius: 10px;
+	text-decoration: none;
 }
 
 /* Components End */
@@ -56,16 +57,16 @@ main .landing .text-content {
 main .landing .text-content h1 {
 	color: white;
 	font-size: 75px;
-	margin-bottom: 30px;
+	margin-bottom: 60px;
 }
 
-main .landing .text-content button:first-of-type {
+main .landing .text-content a:first-of-type {
 	color: white;
 	background-color: #ef3c46;
 	margin-right: 20px;
 }
 
-main .landing .text-content button:last-of-type {
+main .landing .text-content a:last-of-type {
 	color: white;
 	background-color: transparent;
 	border: 2px solid white;

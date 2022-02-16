@@ -2,4 +2,58 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Components Start */
+
+h1 {
+	font-size: 80px;
+}
+
+button {
+	border: none;
+	font-size: 32px;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+/* Components End */
+
+/* Landing Start */
+main .landing {
+	background-color: #312b29;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 50px;
+}
+
+main .landing img {
+	margin-top: 70px;
+}
+
+main .landing .text-content {
+	flex-basis: 50%;
+}
+
+main .landing .text-content h1 {
+	color: white;
+	font-size: 75px;
+	margin-bottom: 30px;
+}
+
+main .landing .text-content button:first-of-type {
+	color: white;
+	background-color: #ef3c46;
+	margin-right: 20px;
+}
+
+main .landing .text-content button:last-of-type {
+	color: white;
+	background-color: transparent;
+	border: 2px solid white;
+}
+/* Landing End */

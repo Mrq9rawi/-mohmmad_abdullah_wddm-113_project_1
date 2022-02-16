@@ -11,10 +11,14 @@ h1 {
 	font-size: 80px;
 }
 
+h2 {
+	font-size: 64px;
+}
+
 button {
 	border: none;
 	font-size: 32px;
-	padding: 10px 20px;
+	padding: 20px 30px;
 	cursor: pointer;
 	border-radius: 10px;
 }

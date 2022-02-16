@@ -120,4 +120,25 @@ main .about .text-content {
 main .about .text-content h3 {
 	margin-bottom: 32px;
 }
+
 /* About End */
+/* Help Start */
+
+main .help {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 100px;
+}
+
+main .help .text-content {
+	flex-basis: 50%;
+}
+
+main .help .text-content h2 {
+	margin-bottom: 32px;
+}
+
+/* Help End */

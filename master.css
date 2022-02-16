@@ -11,10 +11,23 @@ h1 {
 	font-size: 80px;
 }
 
+h2 {
+	font-size: 64px;
+}
+
+h3 {
+	font-size: 40px;
+}
+
+p {
+	font-size: 24px;
+	line-height: 1.5;
+}
+
 button {
 	border: none;
 	font-size: 32px;
-	padding: 10px 20px;
+	padding: 20px 30px;
 	cursor: pointer;
 	border-radius: 10px;
 }
@@ -22,6 +35,7 @@ button {
 /* Components End */
 
 /* Landing Start */
+
 main .landing {
 	background-color: #312b29;
 	height: 100vh;
@@ -56,4 +70,33 @@ main .landing .text-content button:last-of-type {
 	background-color: transparent;
 	border: 2px solid white;
 }
+
 /* Landing End */
+/* Services Start */
+
+main .services {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+main .services h2 {
+	width: fit-content;
+	margin: 0 auto 80px;
+}
+
+main .services .content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 200px;
+}
+
+main .services .content .text-content {
+	flex-basis: 50%;
+}
+
+main .services .content .text-content h3 {
+	margin-bottom: 32px;
+}
+
+/* Services End */

@@ -88,7 +88,7 @@ main .services .content {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap: 200px;
+	gap: 100px;
 }
 
 main .services .content .text-content {
@@ -100,3 +100,24 @@ main .services .content .text-content h3 {
 }
 
 /* Services End */
+/* About Start */
+
+main .about {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 200px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #312b29;
+}
+
+main .about .text-content {
+	color: white;
+	flex-basis: 40%;
+}
+
+main .about .text-content h3 {
+	margin-bottom: 32px;
+}
+/* About End */
